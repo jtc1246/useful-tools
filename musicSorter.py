@@ -10,6 +10,8 @@ def forceDelete(fileName:str):
         shutil.rmtree("./"+fileName)
         return
     os.remove("./"+fileName)
+
+# 引用于 https://blog.csdn.net/orangefly0214/article/details/81385405
 def all_list(arr):
     result = {}
     for i in set(arr):
