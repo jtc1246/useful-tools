@@ -8,6 +8,7 @@ bin-release/
 .settings/
 
 # Executables
+*.DS_Store
 *.swf
 *.air
 *.ipa
