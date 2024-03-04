@@ -11,3 +11,7 @@
 ## py_server_no_cache
 
 Kind of like "python -m http.server", but will not cache anything, will read from file every time, and send headers to tell browser not to keep caches. Only work for existing file, will not list the content of a directory. This is very important for webpage development, because file is always changing.
+
+## pdf_searcher
+
+Search the content of pdf in python, can search all the pdf files in the specified directory, return the list of pdfs containing the keyword.
