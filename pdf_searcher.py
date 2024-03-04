@@ -24,9 +24,9 @@ def reorganize_text(text: str):
         text = text.replace('  ', ' ')
     if (text == ''):
         return ' '
-    if (text[0] != ''):
+    if (text[0] != ' '):
         text = ' ' + text
-    if (text[-1] != ''):
+    if (text[-1] != ' '):
         text = text + ' '
     return text
 
