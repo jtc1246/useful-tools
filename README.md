@@ -15,3 +15,7 @@ Kind of like "python -m http.server", but will not cache anything, will read fro
 ## pdf_searcher
 
 Search the content of pdf in python, can search all the pdf files in the specified directory, return the list of pdfs containing the keyword.
+
+## disks.sh
+
+Automatically mount unencrypted and encrypted disks on Ubuntu.
