@@ -24,8 +24,8 @@ while IFS= read -r line; do
         else
             echo "无法挂载 $device 到 $mount_point"
         fi
+        echo ""
     fi
-    echo ""
 done < <(blkid)
 
 # 加密分区
