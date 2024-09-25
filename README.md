@@ -23,3 +23,7 @@ Automatically mount unencrypted and encrypted disks on Ubuntu.
 ## port_forward
 
 TCP port forwarding using python, very simple to use, no complex config or errors.
+
+## memory_speed_test
+
+Test the memory speed, including single-thread reading, multi-thread reading, single-thread writing and multi-thread writing.
